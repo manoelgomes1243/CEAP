@@ -1,0 +1,18 @@
+
+{
+  "name": "platform-ultimate",
+  "version": "1.0.0",
+  "description": "Plataforma com IA, chat, admin, jogos, Discord e YouTube",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "discord.js": "^14.0.0",
+    "dotenv": "^16.0.0",
+    "openai": "^4.0.0"
+  }
+}
